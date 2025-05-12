@@ -11,3 +11,13 @@ for(let i=0; i < num; i++) {
     }
     
 }
+
+
+container_div.addEventListener("mouseover", (event) => { 
+    let sqr = event.target.id;
+    
+    const hover_div = document.querySelector(`#${sqr}`)
+    
+    hover_div.style = "background-color : blue"; 
+})
+
