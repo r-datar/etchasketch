@@ -1,18 +1,19 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 .container {
     
     box-sizing: border-box;
     display: flex;
     flex-wrap:wrap; 
 
-    height: 480px; 
-    width: 480px;
+    height: 960px; 
+    width: 960px;
 
 }
 
 .square{
     display: flex;
-    height: 30px; 
-    width: 30px;
     border: 1px;
     border-color: gray;
     border-style:solid;   
@@ -20,4 +21,20 @@
     padding: 0;
     gap: 0;
     box-sizing: border-box;
+}
+
+.reset {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    width: 90%;
+    
+    font-weight:bolder;
+}
+button {
+    font-family: 'Courier New', Courier, monospace;
 }
